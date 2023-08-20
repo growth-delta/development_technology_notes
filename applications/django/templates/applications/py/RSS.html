@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block meta %}
+  <!-- On Page META SEO -->
+  <title>{% block page_title %} RSS Feed {% endblock %}</title>
+  <meta name="description" content="{% block description %} Distribution {% endblock %}">
+  <meta name="keywords" content="{% block keywords %} React.js, Django {% endblock %}">
+{% endblock meta %}
+
+{% block body %}
+    <div class="p-4">
+    <h1>{{title}}</h1>
+        <!-- <h2 class="text-center">{{ feed.feed.title }}</h2> -->
+        <br/>
+        {% if feed.entries %}
+        {% for entry in feed.entries %}
+        <div class="card">
+            <div class="card-header text-dark">
+                <strong><h4 class="card-title"><b>{{ entry.title }}</b></h4></strong>
+            </div>
+            <div class="card-body">
+                <b> NEWS RELEASE |</b> {{ entry.published }}
+                <hr>
+                <p>{{ entry.description | safe }}</p>
+                <br/>
+            </div>
+            <div class="card-footer">
+                <a href="{{ entry.link }}" class="btn btn-primary" target="_blank" rel="noopener noreferrer"><b>Read Publication</b></a>
+            </div>
+        </div>
+        <br>
+        {% endfor %}
+        {% endif %}
+    </div>
+{% endblock %}
+
+{% block page_js %}
+  <!-- <script type="text/javascript" src="{% static 'JavaScript/bundles/Distribution-bundle.js' %}"></script> -->
+{% endblock page_js %}

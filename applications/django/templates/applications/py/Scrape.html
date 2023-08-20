@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block meta %}
+  <!-- On Page META SEO -->
+  <title>{% block page_title %} Django & React Docs {% endblock %}</title>
+  <meta name="description" content="{% block description %}Article About Python Django{% endblock %}">
+  <meta name="keywords" content="{% block keywords %}React, JavaScript, Webpack, Django, Python, Web Development, Applications{% endblock %}">
+{% endblock meta %}
+
+{% block body %}
+
+  <h1>{{title}}</h1>
+  <div class="text-center" style="overflow-x:auto;">
+    {{ df|safe }}
+  </div>
+{% endblock %}
