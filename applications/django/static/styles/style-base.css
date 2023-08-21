@@ -1,8 +1,0 @@
-/* Set Header Font */
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Franklin Gothic Medium', sans-serif;
-}
-/* SortTable.js */
-table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
-    content: " \25B4\25BE" 
-}
