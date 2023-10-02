@@ -23,3 +23,13 @@ Run the following python commands, this project was developed using Python 3.11.
 `py manage.py migrate`
 
 `py manage.py runserver`
+
+## Getting Started | Frontend
+
+Run the following npm commands, this project was developed using Node v18.16.0
+
+`cd /assets`
+
+`npm install`
+
+`npm run dev`
