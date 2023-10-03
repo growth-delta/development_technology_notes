@@ -11,6 +11,7 @@ class Subject(models.Model):
 class ContentURL(models.Model):
     subject_content = models.ForeignKey(Subject, on_delete=models.CASCADE, related_name='urls')
     title = models.CharField(default="Subject Video", max_length=33)
+    # url = models.CharField(default="rdwz7QiG0lk?si=_uI8RAN_tdMH8OCS", max_length=899)
     url = models.URLField()
 
     def __str__(self):

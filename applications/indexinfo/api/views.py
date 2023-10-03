@@ -16,3 +16,10 @@ def subject_content_detail(request, subject_slug):
 
     return Response(response_data)
 
+
+@api_view(['GET'])
+def list_all_subjects(request):
+    subjects = Subject.objects.all()
+    serializer = SubjectSerializer(subjects, many=True, context={'request': request})
+    return Response(serializer.data)
+

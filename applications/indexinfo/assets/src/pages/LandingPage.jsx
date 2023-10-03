@@ -1,8 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function LandingPage() {
   return (
-    <div>LandingPage</div>
+    <div>
+      <div className="hero-content text-center">
+        <Link to={'/index'} className='btn btn-primary'>Learn Real Skills</Link>
+      </div>
+    </div>
   );
 };
 
