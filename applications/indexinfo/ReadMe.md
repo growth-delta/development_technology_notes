@@ -21,7 +21,7 @@ Backend Framework: [Django](https://docs.djangoproject.com/en/4.2/) | Python
 
 DataBase Devt: [SQLite](https://www.sqlite.org/docs.html) | Python > SQL
 
-`<img src="./assets/public/frontend.jpeg"></img>`
+<img src="./assets/public/frontend.jpeg"></img>
 
 ## Getting Started
 
@@ -29,7 +29,7 @@ create a `.env` file add a variable `SECRET_KEY = 'django-insecure-pl4jt@3-0v289
 
 ## Getting Started | Backend
 
-`<img src="./assets/public/backend.png"></img>`
+<img src="./assets/public/backend.png"></img>
 
 Run the following python commands, this project was developed using Python 3.11.3
 
@@ -56,7 +56,7 @@ Once you have input some data you can visually check the main API at: `http://12
 
 The backend mainly serves as an API, however in production the backend will also serve the BUILT [vite.js](https://vitejs.dev/guide/build.html) files from django static files and template frameworks.
 
-`<img src="./assets/public/backend_api.png"></img>`
+<img src="./assets/public/backend_api.png"></img>
 
 ## Getting Started | Frontend
 
