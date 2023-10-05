@@ -1,6 +1,6 @@
 # Index Info
 
-Is a simple youtube content index full-stack application, which will be the basis for an eduction platform I intend to build, it can also be plugged into an existing DJANGO REACT PROJECT.
+Is a simple youtube content index full-stack application, basically performs the same function as YouTube playlists for curating content, but on your own website. It can also be plugged into an existing DJANGO REACT PROJECT.
 
 This application is NOT SUITABLE FOR PRODUCTION in the state it's currently in as of 05/10/2023. It is intended for DEVELOPMENT purposes only.
 
