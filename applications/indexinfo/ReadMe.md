@@ -39,7 +39,7 @@ Run the following python commands, this project was developed using Python 3.11.
 
 `venv/Scripts/Activate.ps1`
 
-`pip install requirements.txt`
+`pip install -r requirements.txt`
 
 `py manage.py makemigrations`
 
