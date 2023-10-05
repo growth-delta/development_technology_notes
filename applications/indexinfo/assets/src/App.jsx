@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Footer from './components/navigation/Footer';
@@ -13,7 +13,7 @@ function App() {
         <div className='min-h-screen'>
           <Routes>
             <Route path="/" element={<LandingPage />} exact />
-            <Route path="/index" element={<IndexInfo />} />
+            <Route path="/content-index" element={<IndexInfo />} />
           </Routes>
         </div>
         <Footer />
