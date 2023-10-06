@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': 'http://127.0.0.1:8000', // Proxy server for DRF API
+      '/api': 'http://127.0.0.1:8000', // NOTE: Proxy server for DRF API support
     }
   },
 })

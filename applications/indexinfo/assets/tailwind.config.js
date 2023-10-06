@@ -9,7 +9,7 @@ export default {
     extend: {},
   },
   plugins: [require("daisyui"), require("@tailwindcss/typography"),],
-  // https://daisyui.com/docs/themes/
+  // NOTE: Choose applications theme https://daisyui.com/docs/themes/
   daisyui: {
     themes: [
       "business",

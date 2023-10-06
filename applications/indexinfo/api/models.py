@@ -2,15 +2,15 @@ from django.db import models
 
 
 class Subject(models.Model):
-    subject = models.CharField(max_length=33, unique=True, db_index=True)
-    title = models.CharField(max_length=899, default=subject)
-    skills = models.CharField(max_length=899)
-    description = models.TextField()
+    subject = models.CharField(max_length=332, unique=True, db_index=True)
+    title = models.CharField(max_length=332, default='Subject Title')
+    skills = models.CharField(max_length=332, blank=True)
+    description = models.TextField(blank=True)
 
 
 class ContentURL(models.Model):
     subject_content = models.ForeignKey(Subject, on_delete=models.CASCADE, related_name='urls')
-    title = models.CharField(default="Subject Video", max_length=33)
+    title = models.CharField(default="Video", max_length=332)
     # url = models.CharField(default="rdwz7QiG0lk?si=_uI8RAN_tdMH8OCS", max_length=899)
     url = models.URLField()
 

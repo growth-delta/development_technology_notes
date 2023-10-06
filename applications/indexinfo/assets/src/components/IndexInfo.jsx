@@ -29,13 +29,12 @@ function IndexInfo() {
               <iframe
                 className='w-full h-full'
                 src={selectedUrl}
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                title="Video Player"
                 allowFullScreen
               ></iframe>
             </div>
           </div>
-          <div className="drawer-side">
+          <div className="drawer-side overflow-y-auto">
             <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label>
               <ul className="menu menu-xs p-4 min-h-full bg-base-200 text-base-content">
                 {loading && <li>Loading subjects...</li>}
@@ -50,7 +49,7 @@ function IndexInfo() {
                       <ul>
                         {subject.urls.map((urlObj) => (
                           <li key={urlObj.id} onClick={() => setSelectedUrl(urlObj.url)}>
-                            <a>
+                            <a className={selectedUrl === urlObj.url ? 'active' : ''}>
                               <i className="fa-solid fa-play"></i>
                               {urlObj.title}
                             </a>
