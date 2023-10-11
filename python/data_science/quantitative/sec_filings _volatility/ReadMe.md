@@ -15,16 +15,49 @@ Designed and written by Jamal N.C Morris
 **[Stock Price Returns %](https://en.wikipedia.org/wiki/Price_return)**
 
 
-```
-divstyle="text-align:
-```
+<div style="text-align: center;">
+    <a href="https://en.wikipedia.org/wiki/U.S._Securities_and_Exchange_Commission" rel="noopener noreferrer" target="_blank">
+        <img
+            height="170px"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Seal_of_the_United_States_Securities_and_Exchange_Commission.svg/1024px-Seal_of_the_United_States_Securities_and_Exchange_Commission.svg.png"
+            alt="SEC logo"
+            style="display: inline-block;"
+        ></img>
+    </a>
+    <a href="https://finance.yahoo.com/quote/SPY/history?p=SPY" rel="noopener noreferrer" target="_blank">
+        <img
+            height="170px"
+            src="https://upload.wikimedia.org/wikipedia/commons/8/89/Bollinger_bands_example%2C_2_stddevs.png"
+            alt="OHLC Stock price chart"
+            style="display: inline-block;"
+        ></img>
+    </a>
+</div>
 
 
 ### SEC Form Examples
-
-```
-ul
-```
+<ul>
+    <li>
+        <a href="https://investor.apple.com/sec-filings/default.aspx" rel="noopener noreferrer" target="_blank">
+            Apple Inc SEC filings
+        </a>
+    </li>
+    <li>
+        <a href="https://d18rn0p25nwr6d.cloudfront.net/CIK-0000320193/b4266e40-1de6-4a34-9dfb-8632b8bd57e0.pdf" rel="noopener noreferrer" target="_blank">
+            SEC Form 10-K: Annual Financial Statement
+        </a>
+    </li>
+    <li>
+        <a href="https://d18rn0p25nwr6d.cloudfront.net/CIK-0000320193/f8aaeabb-7a2a-479d-bf72-9559ff51ea5d.pdf" rel="noopener noreferrer" target="_blank">
+            SEC Form 10-Q: Quarterly Financial Statement
+        </a>
+    </li>
+    <li>
+        <a href="https://www.sec.gov/Archives/edgar/data/1467858/000146785816000223/form8-k01042016lyft.htm" rel="noopener noreferrer" target="_blank">
+            SEC Form 8-K: Current Report
+        </a>
+    </li>
+</ul>
 
 
 ## Getting Started
