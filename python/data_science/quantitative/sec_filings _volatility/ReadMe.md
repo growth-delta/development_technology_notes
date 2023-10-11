@@ -1,18 +1,30 @@
 # SEC filings & Stock Volatility
 
 
-This notebook serves as the foundational structure for a Python project designed to backtest historical stock returns under the condition of a filed SEC financial form. The project aims to analyze financial data, leveraging the historical information provided by SEC filings and Yahoo finance, to assess and simulate investment returns, laying the groundwork for a comprehensive financial analysis tool.
 
+
+
+This notebook serves as the foundational structure for a Python project designed to backtest historical stock returns under the condition of a filed SEC financial form. The project aims to analyze financial data, leveraging the historical information provided by SEC filings and Yahoo finance, to assess and simulate investment returns, laying the groundwork for a comprehensive financial analysis tool.
 
 Designed and written by Jamal N.C Morris
 
 
-#### Fundamental Concepts
+The script collects data from the SEC and Yahoo finance API's, then processes and cleans the data. Descriptive statistics are then performed on the data under various conditions. The script writes .csv files of the source data and analytics to their respective folders and files in DataBase/ folder.
 
+
+A list of the companies stock tickers for this specific script can be found in the class: SecData. If you look in the DataBase/ folder you will find 4 .csv files these files represent Ford = F and General Motors = GM. They are created from the notebook.ipynb
+
+
+This is just the basic structure for the logic, too what will eventaully become a full-stack application.
+
+
+
+#### Fundamental Concepts
 
 **[SEC Filings](https://en.wikipedia.org/wiki/SEC_filing)**
 
 **[Stock Price Returns %](https://en.wikipedia.org/wiki/Price_return)**
+
 
 
 <div style="text-align: center;">
@@ -35,7 +47,10 @@ Designed and written by Jamal N.C Morris
 </div>
 
 
+
+
 ### SEC Form Examples
+
 <ul>
     <li>
         <a href="https://investor.apple.com/sec-filings/default.aspx" rel="noopener noreferrer" target="_blank">
@@ -60,28 +75,24 @@ Designed and written by Jamal N.C Morris
 </ul>
 
 
+
+
 ## Getting Started
-
-
 
 ***Open vscode or IDE, then open the project folder in the terminal.***
 
 `cd sec_filings_volatility`
 
-
 ***Now create a virtual environment in the project base called venv/***
 
 `py -m venv venv`
-
 
 ***Activate venv from terminal.***
 
 `/sec_filings _volatility/venv/Scripts/Activate.ps1`
 
-
 ***Install project python requirments***
 
 `pip install -r requirements.txt`
-
 
 Now you can run the program from inside the `sec_filings_volatility/notebook.ipynb` I am assuming you are using [MSFT visualstudio code](https://code.visualstudio.com/) and have python 3.11 installed.
