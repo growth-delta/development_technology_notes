@@ -1,31 +1,22 @@
 # SEC filings & Stock Volatility
 
-
-
-
-
 This notebook serves as the foundational structure for a Python project designed to backtest historical stock returns under the condition of a filed SEC financial form. The project aims to analyze financial data, leveraging the historical information provided by SEC filings and Yahoo finance, to assess and simulate investment returns, laying the groundwork for a comprehensive financial analysis tool.
 
 Designed and written by Jamal N.C Morris
 
-
 The script collects data from the SEC and Yahoo finance API's, then processes and cleans the data. Descriptive statistics are then performed on the data under various conditions. The script writes .csv files of the source data and analytics to their respective folders and files in DataBase/ folder.
-
 
 A list of the companies stock tickers for this specific script can be found in the class: SecData. If you look in the DataBase/ folder you will find 4 .csv files these files represent Ford = F and General Motors = GM. They are created from the notebook.ipynb
 
-
 This is just the basic structure for the logic, too what will eventaully become a full-stack application.
-
-
 
 #### Fundamental Concepts
 
-**[SEC Filings](https://en.wikipedia.org/wiki/SEC_filing)**
+[SEC Filings](https://en.wikipedia.org/wiki/SEC_filing)
 
-**[Stock Price Returns %](https://en.wikipedia.org/wiki/Price_return)**
+[Stock Ticker &amp; CIK](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies#S&P_500_component_stocks)
 
-
+[Stock Price Returns %](https://en.wikipedia.org/wiki/Price_return)
 
 <div style="text-align: center;">
     <a href="https://en.wikipedia.org/wiki/U.S._Securities_and_Exchange_Commission" rel="noopener noreferrer" target="_blank">
@@ -45,9 +36,6 @@ This is just the basic structure for the logic, too what will eventaully become 
         ></img>
     </a>
 </div>
-
-
-
 
 ### SEC Form Examples
 
@@ -73,9 +61,6 @@ This is just the basic structure for the logic, too what will eventaully become 
         </a>
     </li>
 </ul>
-
-
-
 
 ## Getting Started
 
